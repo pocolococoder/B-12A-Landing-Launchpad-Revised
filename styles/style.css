@@ -158,7 +158,7 @@ body{
     margin: 0 auto;
     height: 280px;
     margin-top: 65px;
-    margin-bottom: 65px;
+    margin-bottom: 665px;
 
 }
 
@@ -301,4 +301,45 @@ body{
     font-size: 4rem;
     font-weight: 800;
     color: #4E47FF;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .action{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .users-card-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+
+    .focus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .focus-img{
+        height: 200px;
+        width: 300px;
+    }
+
+    .get-in-touch{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .get-in-touch h1{
+        margin-left: 50px;
+    }
+
+    .action{
+        text-align: center;
+    }
 }
